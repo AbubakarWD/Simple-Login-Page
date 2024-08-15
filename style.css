@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(172, 57, 185);
+    background: linear-gradient(90deg, rgba(172, 57, 185, 0.9640231092436975) 52%, rgba(255, 111, 254, 0.9640231092436975) 81%);
+}
+
+.main {
+    display: flex;
+    background-color: blue;
+    width: 70vw;
+    height: 90vh;
+    margin: 20px auto;
+}
+
+.first {
+    background-color: rgb(123, 26, 235);
+    width: 35vw;
+    height: 90vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.first h1 {
+    color: white;
+    font-size: 35px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.first>img {
+    width: 300px;
+    margin-top: -50px;
+    margin-left: 90px;
+    /* padding: 20px; */
+}
+
+.ico {
+    /* border: 2px solid red; */
+    display: flex;
+    color: white;
+    font-size: 10px;
+    /* padding-left: 50px; */
+    /* width: 120px; */
+    /* height: 50px; */
+
+}
+
+.imap {
+    /* border: 2px solid red; */
+    text-align: center;
+    padding-left: 50px;
+    margin-top: 90px;
+    width: 100px;
+    height: 50px;
+}
+
+
+.second {
+    background-color: rgb(255, 255, 255);
+    width: 35vw;
+    height: 90vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.second input {
+    font-size: 12px;
+    padding-bottom: 7px;
+    color: black;
+}
+
+.second h1 {
+    margin: 50px 0 5px 50px;
+}
+
+.second p {
+    font-size: 12px;
+    margin: 35px 0 5px 50px;
+}
+
+.second p strong {
+    color: rgb(123, 26, 235);
+}
+
+.second p strong:hover {
+    color: rgb(112, 33, 202);
+    text-decoration: underline;
+}
+
+.second input {
+    border: none;
+    border-bottom: 1px solid black;
+    /* padding-left: 50px; */
+    width: 350px;
+    margin-top: 40px;
+}
+
+/* .second input:focus {
+    border: none;
+
+} */
+
+.second label {
+    padding: 0px 0 0px 50px;
+}
+
+.telem input[type="checkbox"] {
+    /* border: 2px solid rebeccapurple; */
+    width: 100px;
+    height: 13px;
+    margin: -40px;
+    /* padding: -50px; */
+}
+
+.telem span {
+    font-size: 12px;
+    position: relative;
+    bottom: 2px;
+}
+
+.telem p {
+    display: inline;
+    margin-left: 130px;
+}
+
+.telem p:hover {
+    color: rgb(123, 26, 235);
+    text-decoration: underline;
+}
+
+button {
+    background-color: rgb(123, 26, 235);
+    color: white;
+    border: 2px solid white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    margin: 20px 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(95, 23, 179);
+    scale: 0.9;
+}
+
+.social {
+    /* border: 2px solid red; */
+    margin-left: 40px;
+    /* margin-top:20px; */
+}
+
+.social img {
+    /* border: 2px solid red; */
+    /* background-color: aqua; */
+    padding: 10px 30px 10px 30px;
+    /* border: 2px solid red; */
+    width: 30px;
+    padding: 5px;
+    /* padding: 3px 15px 3px 15px; */
+    /* border-radius: 20px; */
+}
+
+.social img:hover {
+    border-bottom: 2px solid red;
+    /* text-decoration: underline; */
+}
