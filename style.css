@@ -71,6 +71,10 @@ body {
     color: black;
 }
 
+.second input:focus {
+    outline: none;
+}
+
 .second h1 {
     margin: 50px 0 5px 50px;
 }
